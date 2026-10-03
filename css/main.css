@@ -1,0 +1,195 @@
+/* SilvioFlix Jellyfin Theme
+ * Main UI branding
+ */
+
+/* Header / top navigation */
+.skinHeader,
+.skinHeader-withBackground {
+  background: rgba(5, 7, 10, .94) !important;
+  border-bottom: 1px solid var(--sf-border) !important;
+  backdrop-filter: blur(12px);
+}
+
+.skinHeader .headerTop {
+  background: transparent !important;
+}
+
+.headerLogo {
+  width: auto !important;
+  height: 42px !important;
+  background: url("../assets/img/SilvioFlix-Logo.svg") center left / contain no-repeat !important;
+  color: transparent !important;
+  font-size: 0 !important;
+}
+
+.headerLogo img {
+  display: none !important;
+}
+
+/* Drawer */
+.mainDrawer {
+  background: #070a0f !important;
+  border-right: 1px solid var(--sf-border) !important;
+}
+
+.mainDrawer .navMenuOption {
+  border-radius: 8px !important;
+  margin: 3px 8px !important;
+}
+
+.mainDrawer .navMenuOption:hover {
+  background: #0d1722 !important;
+}
+
+.mainDrawer .navMenuOption-selected {
+  background: rgba(22,119,210,.16) !important;
+  color: var(--sf-blue-bright) !important;
+}
+
+/* Cards */
+.cardScalable {
+  border-radius: 9px !important;
+  overflow: hidden !important;
+}
+
+.cardScalable .cardImageContainer {
+  background: #0a0e14 !important;
+}
+
+.cardOverlayContainer {
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,.88),
+    rgba(0,0,0,.12) 70%,
+    transparent
+  ) !important;
+}
+
+.cardText,
+.cardText-first {
+  color: var(--sf-text) !important;
+}
+
+.secondary {
+  color: var(--sf-muted) !important;
+}
+
+/* Sections / home */
+.sectionTitle {
+  color: #f0f5fb !important;
+  font-weight: 600 !important;
+  letter-spacing: .01em;
+}
+
+.sectionTitleContainer {
+  border-bottom: 1px solid rgba(23,35,51,.7);
+}
+
+/* Detail pages */
+.detailPagePrimaryContainer,
+.detailPageSecondaryContainer {
+  background: transparent !important;
+}
+
+.detailLogo {
+  filter: drop-shadow(0 8px 24px rgba(0,0,0,.45));
+}
+
+.itemBackdrop {
+  opacity: .28 !important;
+}
+
+.itemBackdrop::after {
+  background: linear-gradient(
+    to bottom,
+    rgba(5,7,10,.15),
+    rgba(5,7,10,.94) 88%,
+    #05070a
+  ) !important;
+}
+
+/* Player */
+.videoPlayerContainer,
+.videoPlayerContainer video {
+  background: #000 !important;
+}
+
+.videoOsdBottom {
+  background: linear-gradient(to top, rgba(0,0,0,.9), transparent) !important;
+}
+
+/* Dashboard */
+.dashboardGeneralForm,
+.dashboardSection {
+  background: transparent !important;
+}
+
+.dashboardSection h2 {
+  color: var(--sf-text) !important;
+}
+
+/* Dialogs */
+.dialog,
+.dialogContainer {
+  background: #090d13 !important;
+  border: 1px solid var(--sf-border) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 20px 70px rgba(0,0,0,.55) !important;
+}
+
+/* Links and icons */
+.emby-button .material-icons,
+.navMenuOption .material-icons {
+  color: currentColor !important;
+}
+
+.material-icons {
+  opacity: .94;
+}
+
+/* Accent utilities */
+.button-submit,
+.btnPlay,
+.btnResume,
+.btnPlayTrailer {
+  background: var(--sf-blue-dark) !important;
+  color: white !important;
+}
+
+.button-submit:hover,
+.btnPlay:hover,
+.btnResume:hover,
+.btnPlayTrailer:hover {
+  background: var(--sf-blue) !important;
+}
+
+/* Login */
+#loginPage {
+  background:
+    radial-gradient(circle at 50% 30%, rgba(11,61,110,.18), transparent 35%),
+    #05070a !important;
+}
+
+#loginPage .padded-left {
+  background: transparent !important;
+}
+
+#loginPage .inputContainer {
+  background: #080c12 !important;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .headerLogo {
+    height: 34px !important;
+    max-width: 210px;
+  }
+
+  .mainDrawer {
+    background: #06090d !important;
+  }
+
+  .cardScalable {
+    border-radius: 7px !important;
+  }
+}

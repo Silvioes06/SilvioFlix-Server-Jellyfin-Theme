@@ -1,0 +1,129 @@
+/* SilvioFlix Jellyfin Theme
+ * Dark / Blue / Minimal
+ * Default/base overrides
+ */
+:root {
+  --sf-bg: #05070a;
+  --sf-bg-2: #080b10;
+  --sf-panel: #0c1118;
+  --sf-panel-2: #101722;
+  --sf-border: #172333;
+  --sf-blue: #1677d2;
+  --sf-blue-bright: #2496ed;
+  --sf-blue-dark: #0b3d6e;
+  --sf-text: #e7edf5;
+  --sf-muted: #8795a8;
+  --sf-radius: 10px;
+}
+
+html, body {
+  background: var(--sf-bg) !important;
+  color: var(--sf-text) !important;
+}
+
+body {
+  font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif !important;
+}
+
+.backgroundContainer,
+.skinBody,
+.skinBody-withFullWindow {
+  background: var(--sf-bg) !important;
+}
+
+.paperList,
+.cardBox,
+.dialog,
+.mainDrawer,
+.drawer-open,
+.formDialog,
+.itemDetail,
+.detailPageWrapper,
+.dashboardGeneralForm,
+.visualCardBox,
+.cardScalable {
+  background-color: var(--sf-panel) !important;
+  border-color: var(--sf-border) !important;
+}
+
+a,
+.emby-button,
+.button-flat,
+.listItemBodyText,
+.cardText {
+  color: var(--sf-text);
+}
+
+a:hover,
+.button-link:hover,
+.emby-button:hover {
+  color: var(--sf-blue-bright) !important;
+}
+
+.emby-button,
+.raised,
+.fab,
+.btnRefresh,
+.submit {
+  border-radius: var(--sf-radius) !important;
+}
+
+.raised,
+.submit,
+.fab {
+  background: var(--sf-blue-dark) !important;
+  color: #fff !important;
+}
+
+.raised:hover,
+.submit:hover,
+.fab:hover {
+  background: var(--sf-blue) !important;
+}
+
+input,
+textarea,
+select,
+.emby-input,
+.emby-select,
+.emby-textarea {
+  background: #070b10 !important;
+  color: var(--sf-text) !important;
+  border-color: var(--sf-border) !important;
+  border-radius: 8px !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+.emby-input:focus {
+  border-color: var(--sf-blue) !important;
+  box-shadow: 0 0 0 2px rgba(22,119,210,.16) !important;
+}
+
+.itemProgressBar,
+.itemProgressBarForeground {
+  border-radius: 999px !important;
+}
+
+.itemProgressBarForeground {
+  background: var(--sf-blue) !important;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: #05070a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1a2b3e;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--sf-blue-dark);
+}

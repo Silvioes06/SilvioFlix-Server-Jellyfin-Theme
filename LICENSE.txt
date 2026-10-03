@@ -1,0 +1,13 @@
+SilvioFlix Server
+Copyright (C) 2026 Silvio Ramalho Neto da Silva
+
+Este arquivo contém a licença do tema personalizado
+SilvioFlix Server.
+
+Todos os direitos reservados.
+
+A utilização, modificação ou redistribuição deste tema
+deve respeitar os termos definidos pelo autor.
+
+Jellyfin é um projeto independente e não é afiliado ao
+SilvioFlix Server.

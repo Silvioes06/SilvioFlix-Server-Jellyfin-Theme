@@ -16,4 +16,4 @@ SilvioFlix Server.
 - Scrollbar personalizada
 - Interface responsiva
 - Compatível com uso em servidor NAS
-- 
+  

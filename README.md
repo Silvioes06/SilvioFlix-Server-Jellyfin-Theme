@@ -16,15 +16,4 @@ SilvioFlix Server.
 - Scrollbar personalizada
 - Interface responsiva
 - Compatível com uso em servidor NAS
-
-## Estrutura
-
-```text
-SilvioFlix-Server/
-├── assets/
-│   └── img/
-│       └── SilvioFlix-Logo.png
-├── silvioflix-theme.css
-├── README.md
-├── LICENSE.txt
-└── AUTHORS
+- 

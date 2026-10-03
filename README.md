@@ -10,21 +10,6 @@ Tema escuro, moderno, elegante e minimalista para o Jellyfin do **SilvioFlix Med
 - Interface: bordas discretas, painéis escuros, navegação limpa e barras de progresso azuis.
 - Pensado para um servidor NAS de mídia com biblioteca de vídeos.
 
-## Estrutura
-
-```text
-SilvioFlix-Jellyfin-Theme/
-├── assets/
-│   └── img/
-│       └── SilvioFlix-Logo.svg
-├── css/
-│   ├── default.css
-│   └── main.css
-├── AUTHORS
-├── LICENSE.txt
-└── README.md
-```
-
 ## Instalação
 
 1. Copie `css/default.css`, `css/main.css` e `assets/img/SilvioFlix-Logo.svg` para um local acessível ao Jellyfin.
